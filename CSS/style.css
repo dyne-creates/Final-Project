@@ -24,6 +24,7 @@ body {
     grid-column: span 12;
 }
 
+ /* Home Page */
 header {
     display: flex;
     justify-content: space-between;
@@ -182,7 +183,7 @@ nav ul li ul li {
     line-height: 2;
 }
 
-
+ /* Member Page */
 #member-container {
     max-width: 1000px;
     width: 100%;
@@ -231,6 +232,7 @@ nav ul li ul li {
     text-align: justify;
 }
 
+ /* Music Page */
 #song-section {
     width: 100%;
     padding: 50px;
@@ -337,6 +339,7 @@ nav ul li ul li {
     text-align: center;
 }
 
+ /* Events Page */
 #events {
     max-width: 100%;
     margin: 50px auto;
@@ -387,6 +390,7 @@ nav ul li ul li {
     color: black;
 }
 
+ /* Gallery Page */
 #gallery-section {
     padding: 80px 50px;
 }
@@ -445,9 +449,10 @@ nav ul li ul li {
     display: block;
 }
 
+ /* Sign Up Page */
 #sign-up {
     margin: auto;
-    max-width: 600px;
+    max-width: 500px;
     margin-top: 100px;
     margin-bottom: 20px;
     padding: 20px;
@@ -500,11 +505,11 @@ select {
     color: gold;
 }
 
+ /* Footer Section */
 footer {
     background-color: #111;
     color: white;
     padding: 20px;
-    margin-top: 5px;
 }
 
 .social-icons {
@@ -621,6 +626,10 @@ footer {
         flex-wrap: wrap;
         padding: 20px;
         margin-top: 10px;
+    }
+
+    .footer-links {
+        gap: 10px;
     }
 }
 

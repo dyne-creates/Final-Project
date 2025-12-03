@@ -510,6 +510,10 @@ footer {
     background-color: #111;
     color: white;
     padding: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0; 
+    width: 100%;
 }
 
 .social-icons {

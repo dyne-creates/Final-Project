@@ -604,7 +604,9 @@ footer {
     .gallery-container {
         grid-template-columns: repeat(1, 1fr);
     }
-
+    .gallery-overlay{
+        font-size: 11pt;
+    }
     .hero {
         flex-direction: column;
         text-align: center;
@@ -680,7 +682,9 @@ footer {
     .gallery-container {
         grid-template-columns: repeat(1, 1fr);
     }
-
+    .gallery-overlay{
+        font-size: 12pt;
+    }
     .song-container {
         display: flex;
         gap: 20px;
